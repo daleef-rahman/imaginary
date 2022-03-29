@@ -112,6 +112,7 @@ type URLSignature struct {
 	Key string
 }
 
+//Main function
 func main() {
 	flag.Usage = func() {
 		_, _ = fmt.Fprintf(os.Stderr, usage, Version, runtime.NumCPU())
